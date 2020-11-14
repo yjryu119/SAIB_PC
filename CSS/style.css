@@ -144,6 +144,9 @@ h2{
     height: 340px;
     position: relative;
 }
+.review_lists img{
+    width: 100%;
+}
 .right_list{
     width: calc(30% - 40px);
     float: right;
@@ -154,6 +157,9 @@ h2{
     padding-top: 30px;
     height: 340px;
     position: relative;
+}
+.right_list img{
+    width: 100%;
 }
 .contents{
     font-size: 14px;
@@ -183,15 +189,19 @@ h2{
 }
 .campaign img{
     float: left;
+    width: 60%;
 }
 .campaign_description{
     float: left;
-    width: 340px;
+    width: 30%;
     margin-left: 30px;
 }
 .campaign_description h2{
     font-family: 'Abril Fatface', cursive;
     font-size: 50px;
+    margin: 0;
+    margin-top: 40%;
+    margin-bottom: 10%;
     color: #e7acbd;
 }
 .about{

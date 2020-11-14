@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.clear{
+    clear: both;
+}
+body{
+    position: relative;
+}
+.fixed_menu{
+    width: 50px;
+    height: 50px;
+    border: grey;
+    border-radius: 30px;
+    background-color: #000000;
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    z-index: 990;
+}
+header{
+    width: 100%;
+    height: 60px;
+    position: sticky;
+    top: 0px;
+    background-color: whitesmoke;
+    z-index: 9999;
+    box-shadow: rgb(156, 156, 156) 1px 1px 5px;
+}
+.ham_menu{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 25px;
+}
+.ham_menu img{
+    width: 100%;
+}
+.ham_menu:hover+nav{
+    display: block;
+    transition: all 1s;
+}
+.logo{
+    position: absolute;
+    top: 15px;
+    left: calc(50% - 60px);
+    width: 120px;
+    height: 80px;
+}
+.logo img{
+    width: 100%;
+}
+.global{
+    position: absolute;
+    top: 17px;
+    right: 20px;
+    width: 25px;
+}
+.global img{
+    width: 100%;
+}
+.close{
+    width: 30px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.close img{
+    width: 100%;
+}
+.close:hover nav{
+    display: none;
+}
+nav{
+    display: none;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    transition: all 1s;
+    background-color: rgba(121, 121, 121, 0.808);
+}
+nav>ul{
+    width: 60%;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    background-color: #FCE8EC;
+    height: 100vh;
+    padding: 25px;
+}
+.nav>ul>li{
+    width: 100%;
+    float: left;
+    border: 1px solid black;
+}
+.menu_top a{
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+    display: block;
+    padding: 2px 5px 2px 5px;
+}
+nav>ul>li>a{
+    font-size: 14px;
+    font-weight: 800;
+    text-align: left;
+    display: block;
+    padding: 25px 5px 0px 5px;
+}
+.menu_bottom{
+    height: 50px;
+    margin-top: 20px;
+}
+.menu_bottom>a>img{
+    height: 30px;
+    margin-right: 10px ;
+}
+video{
+    width: 100%;
+}
+.our_products{
+    width: 95%;
+    margin: 0px auto;
+    height: 800px;
+}
+h2{
+    margin: 50px 0;
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+}
+.our_products_lists{
+    width: 48%;
+    float: left;
+    margin: 0 auto;
+    margin-right: 1%;
+}
+.right{
+    width: 48%;
+    float: right;
+    margin: 0 auto;
+    margin-right: 0;
+}
+.our_products_lists img{
+    display: block;
+    width: 100%;
+}
+.our_products_lists h3{
+    color: #797979;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.our_products_lists p{
+    color: #282c49;
+    font-size: 14px;
+    font-weight: 400;
+}
+.our_products_lists h4{
+    color: #be4b78;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+.button{
+    background-color: rgb(231,172,189);
+    width: 165px;
+    height: 50px;
+    margin: 20px auto;
+}
+.button a{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+}
+.button:hover{
+    transform: scale(1.1);
+}
+.our_promise{
+    width: 100%;
+    margin: 0px auto;
+    height: 500px;
+}
+.our_promise .main_banner img{
+    width: 100%;
+}
+.banner_description{
+    width: 95%;
+    margin: 0 auto;
+    padding-left: 20px;
+}
+.banner_description h3{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 45px;
+    line-height: 45px;
+    color: lightgrey;
+    text-align: left;
+    margin-top: 20px;
+}
+.banner_description h2{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 45px;
+    line-height: 45px;
+    color: #e7acbd;
+    text-align: left;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.banner_description p{
+    margin-top: 0;
+    font-weight: 200;
+}
+.review{
+    margin-top: 100px;
+    width: 100%;
+}
+.review_lists{
+    width: calc(100% - 40px);
+    float: left;
+    margin: 0 auto;
+    background-color: rgb(248,228,232);
+    padding: 20px;
+    padding-top: 30px;
+    height: 250px;
+    position: relative;
+}
+.right_list{
+    width: calc(100% - 40px);
+    float: right;
+    margin: 0 auto;
+    margin-right: 0;
+    background-color: rgb(248,228,232);
+    padding: 20px;
+    padding-top: 30px;
+    height: 250px;
+    position: relative;
+}
+.contents{
+    font-size: 14px;
+    color: #767676;
+    margin-top: 5px;
+}
+.review h6{
+    color: #e0a6b8;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: right;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.campaign{
+    width: 100%;
+    margin: 0px auto;
+    height: 650px;
+    background-color: #FCE8EC;
+    padding-top: 10px;
+    margin-top: 50px;
+}
+.campagin_contents{
+    width: 100%;
+    margin: 0 auto;
+    height: 400px;
+}
+.campaign img{
+    float: left;
+    width: 100%;
+}
+.campaign_description{
+    float: left;
+    width: 340px;
+    margin-left: 20px;
+}
+.campaign_description h2{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 40px;
+    color: #e7acbd;
+    text-align: left;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.campaign_description p{
+    font-weight: 200;
+}
+.about{
+    width: 95%;
+    margin: 0px auto;
+    height: 200px;
+}
+.award , .press {
+    border-bottom: 1px solid #e7acbd;
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+    height: 140px;
+}
+.stockist{
+    width: 100%;
+    float: right;
+    margin: 0 auto;
+    margin-right: 0;
+    height: 140px;
+}
+.about h2{
+    margin-top: 30px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    text-align: left;
+}
+.about p{
+    margin-top: 10px ;
+    color: #e7acbd;
+    margin-left: 20px;
+    font-weight: 300;
+}
+.awards_lists{
+    width: 100%;
+    background-color:rgb(252,231,236) ;
+    text-align: center;
+}
+.awards_lists img{
+    width: 100%;
+}
+.instagram{
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+}
+.instagram h2{
+    text-align: center;
+}
+.instagram>ul>li{
+    width: 33%;
+    float: left;
+    margin: 0 auto;
+    margin: 0.15%;
+}
+.instagram img{
+    width: 100%;
+    display: block;
+}
+footer{
+    width: 100%;
+    height: 250px;
+    background-color: #FCE8EC ;
+    position: relative;
+    z-index: 200;
+}
+.footer_top{
+    width: 90%;
+    margin: 0px auto;
+    padding: 120px 0 30px 0;
+}
+.footer_top p{
+    color: #c5768c;
+    font-size: 12px;
+    font-weight: 400;
+}
+.footer_icon{
+    margin: 0px auto;
+    width: 150px;
+    position: absolute;
+    right: calc(50% - 75px);
+    top: 40px;
+}
+.footer_bottom{
+    width: 90%;
+    margin: 0px auto;
+}
+.footer_bottom p{
+    color: #cca6b0;
+    font-size: 12px;
+    font-weight: 300;
+}

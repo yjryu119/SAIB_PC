@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.clear{
+    clear: both;
+}
+header{
+    width: 100%;
+    height: 120px;
+    position: sticky;
+    top: 0;
+    background-color: #FCE8EC;
+    z-index: 9999;
+    box-shadow: rgb(156, 156, 156) 1px 1px 5px;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    padding-top: 20px;
+}
+nav>ul{
+    width: 80%;
+    margin: 0 auto;
+}
+nav>ul>li{
+    width: 10%;
+    float: left;
+}
+nav>ul>li:nth-child(5){
+    width: 20%;
+    margin: 0;
+    padding: 0;
+}
+.menu_right{
+    width: 7.9%;
+    margin: 0;
+    padding: 0;
+}
+nav>ul>li:nth-child(5) img{
+    position: absolute;
+    top: 15px;
+    left: calc(50% - 90px);
+}
+nav>ul>li>a{
+    font-size: 12.5px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    padding: 30px 0 30px 0;
+}
+.menu_right img{
+    width: 23%;
+}
+.menu_right img:first-child{
+    margin-right: 5px;
+}
+video{
+    width: 100%;
+}
+.our_products{
+    width: 75%;
+    margin: 0px auto;
+    height: 800px;
+}
+h2{
+    margin: 100px 0;
+    font-size: 30px;
+    font-weight: 100;
+}
+.our_products_lists{
+    width: 30%;
+    float: left;
+    margin: 0 auto;
+    margin-right: 4.7%;
+}
+.right{
+    width: 30%;
+    float: right;
+    margin: 0 auto;
+    margin-right: 0;
+}
+.our_products_lists img{
+    display: block;
+    width: 100%;
+}
+.our_products_lists h3{
+    color: #797979;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.our_products_lists p{
+    color: #282c49;
+    font-size: 16px;
+    font-weight: 400;
+}
+.our_products_lists h4{
+    color: #be4b78;
+    font-size: 16px;
+    font-weight: 400;
+}
+.button{
+    background-color: rgb(231,172,189);
+    width: 165px;
+    height: 50px;
+    margin: 50px auto;
+}
+.button a{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+}
+.button:hover{
+    transform: scale(1.1);
+}
+.our_promise{
+    width: 75%;
+    margin: 0px auto;
+    height: 1400px;
+}
+.our_promise .main_banner img{
+    width: 100%;
+}
+.review{
+    margin-top: 100px;
+}
+.review_lists{
+    width: calc(30% - 40px);
+    float: left;
+    margin: 0 auto;
+    margin-right: 4.7%;
+    background-color: rgb(248,228,232);
+    padding: 20px;
+    padding-top: 30px;
+    height: 340px;
+    position: relative;
+}
+.right_list{
+    width: calc(30% - 40px);
+    float: right;
+    margin: 0 auto;
+    margin-right: 0;
+    background-color: rgb(248,228,232);
+    padding: 20px;
+    padding-top: 30px;
+    height: 340px;
+    position: relative;
+}
+.contents{
+    font-size: 14px;
+    color: #767676;
+    margin-top: 5px;
+}
+.review h6{
+    color: #e0a6b8;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: right;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.campaign{
+    width: 100%;
+    margin: 0px auto;
+    height: 900px;
+    background-color: #FCE8EC;
+    padding-top: 30px;
+}
+.campagin_contents{
+    width: 75%;
+    margin: 0 auto;
+    height: 700px;
+}
+.campaign img{
+    float: left;
+}
+.campaign_description{
+    float: left;
+    width: 340px;
+    margin-left: 30px;
+}
+.campaign_description h2{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 50px;
+    color: #e7acbd;
+}
+.about{
+    width: 75%;
+    margin: 0px auto;
+    height: 200px;
+}
+.award , .press {
+    border-right: 1px solid #e7acbd;
+    width: 30%;
+    float: left;
+    margin: 0 auto;
+    margin-right: 4.7%;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.stockist{
+    width: 30%;
+    float: right;
+    margin: 0 auto;
+    margin-right: 0;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about h2{
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+.about p{
+    margin-top: 10px ;
+    color: #e7acbd;
+    font-weight: 300;
+}
+.awards_lists{
+    width: 100%;
+    background-color:rgb(252,231,236) ;
+    text-align: center;
+}
+.instagram{
+    width: 70%;
+    height: 950px;
+    margin: 0 auto;
+}
+.instagram h2{
+    text-align: center;
+}
+.instagram>ul>li{
+    width: 33%;
+    float: left;
+    margin: 0 auto;
+    margin: 0.15%;
+}
+.instagram img{
+    width: 100%;
+    display: block;
+}
+footer{
+    width: 100%;
+    height: 220px;
+    background-color: #FCE8EC ;
+    position: relative;
+    
+}
+.footer_top{
+    width: 80%;
+    margin: 0px auto;
+    padding: 50px 0 30px 0;
+}
+.footer_top p{
+    color: #c5768c;
+    font-size: 12px;
+    font-weight: 400;
+}
+.footer_icon{
+    margin: 0px auto;
+    width: 150px;
+    position: absolute;
+    right: 10%;
+    top: 40px;
+}
+.footer_bottom{
+    width: 80%;
+    margin: 0px auto;
+}
+.footer_bottom p{
+    color: #cca6b0;
+    font-size: 12px;
+    font-weight: 300;
+}
